@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #9b98a3;
+    margin: 0;
+    color: black;
+}
+
+hr{
+    border-color: #000000;
+}
+
+#main, #game {
+    text-align: center;
+}
+
+#startButton, .choiceButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+#startButton:hover, .choiceButton:hover {
+    background-color: #00b109;
+}
+
+.choiceButton:disabled {
+    background-color: #9b98a3;
+    color: #9b98a3;
+}
+
+#scoreboard {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#countdown {
+    font-size: 40px;
+}
+
+#choices {
+    margin-top: 20px;
+}
+
+#images {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#images img {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+}
+
+.bounce {
+    animation: bounce 0.5s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}

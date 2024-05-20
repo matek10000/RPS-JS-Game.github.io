@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPN Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sekcja Menu Głównego -->
+    <div id="main">
+        <h1>KAMIEŃ, PAPIER, NOŻYCE</h1>
+        <h3><i>Prosta gra w JavaScript</i></h3>
+        <hr>
+        <p><i>Gra składa się z nielimitowanej ilości rund. Rozgrywka kończy się, gdy pierwszy z graczy uzyska trzy punkty.</p>
+        <p>W każdej rundzie masz pięć sekund na dokonanie wyboru. Brak integracji ze strony użytkownika skutkuje przegraniem rundy i stratą punktu.</p>
+        <p><b>Powodzenia!</i></b></p>
+        <hr>
+        <button id="startButton">START</button>
+    </div>
+
+
+    <!-- Sekcja gry -->
+    <div id="game" style="display: none;">
+        <div id="scoreboard">
+            <hr>
+            <h1 id="round">Runda: 1</h1>
+            <hr>
+            <h2>Wynik</h2>
+            <span id="playerScore">Gracz: 0</span><br>
+            <span id="aiScore">AI: 0</span>
+            <hr>
+        </div>
+        <div id="countdown">5</div> 
+        <div id="result" style="height: 50px; font-size: 24px;"></div>
+        <div id="choices">
+            <button class="choiceButton" data-choice="rock">Kamień</button>
+            <button class="choiceButton" data-choice="paper">Papier</button>
+            <button class="choiceButton" data-choice="scissors">Nożyce</button>
+        </div>
+        <div id="images">
+            <img id="playerImage" src="" alt="Twój wybór" style="display: none;">
+            <img id="aiImage" src="" alt="Wybór komputera" style="display: none;">
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

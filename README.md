@@ -2,6 +2,9 @@
 
 Witaj w grze Papier, Kamień, Nożyce! Jest to prosta implementacja klasycznej gry w wersji webowej, w której możesz zagrać przeciwko przeciwnikowi AI.
 
+[WYPRÓBUJ GRĘ ONLINE!](https://github.com/twoja-nazwa-uzytkownika/rock-paper-scissors)
+
+
 ## Spis Treści
 
 - [Funkcje](#funkcje)

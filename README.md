@@ -29,7 +29,7 @@ Aby uruchomić lokalną kopię, wykonaj poniższe kroki:
 
 1. **Sklonuj repozytorium:**
     ```sh
-    git clone https://github.com/twoja-nazwa-uzytkownika/rock-paper-scissors.git
+    git clone https://github.com/matek10000/RPS-JS-Game.github.io.git
     ```
 2. **Przejdź do katalogu projektu:**
     ```sh
